@@ -1,5 +1,20 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="topic">
+    <p>This is about me</p>
   </div>
 </template>
+
+<script>
+import home from '../components/home.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    home
+  }
+}
+</script>
+
+<style>
+
+</style>
