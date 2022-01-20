@@ -1,18 +1,14 @@
-<template>
-    <div>
-        <div class="topic">
-            <p class="title1">W e l c o m e</p>
-            <p class="title2">to</p>
-            <p class="title3">M y&nbsp;&nbsp; H o m e P a g e</p>
-        </div>
-            <div class="My-pic">
-                <img class="ui medium circular image" src="../images/mypic.png">
-            </div>
+.<template>
+    <div class="topic">
+        <p class="title1">W e l c o m e</p>
+        <p class="title2">to</p>
+        <p class="title3"> A b o u t&nbsp;&nbsp; M e</p>
     </div>
 </template>
 
 <script>
 export default {
+
 }
 </script>
 
@@ -38,9 +34,5 @@ export default {
     font-size:100px;
     color:rgb(246, 230, 203);
     font-weight:bold;
-}
-img{
-    width:100px;
-    border-radius: 50%;
 }
 </style>
