@@ -1,9 +1,12 @@
-.<template>
-    <div class="topic">
-        <p class="title1">W e l c o m e</p>
-        <p class="title2">to</p>
-        <p class="title3"> A b o u t&nbsp;&nbsp; M e</p>
+<template>
+    <head>
+    <div class="header">
+            <div class="topic">
+                <p class="title1"> . . . A b o u t&nbsp;&nbsp;M e</p>
+                <img class="about-img" src="../images/aboutpic2.png"/>
+            </div>
     </div>
+    </head>
 </template>
 
 <script>
@@ -13,26 +16,26 @@ export default {
 </script>
 
 <style>
-.topic{
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Playfair+Display:wght@500&display=swap');
+head {
     display:block;
-    text-align:center;
-    line-height:0.3;
+    text-align:right;
+    /* line-height:0; */
 }
 .title1{
-    font-size:100px;
     color:rgb(246, 230, 203);
-    font-weight:bold;
-    margin-bottom:0;
+    margin-top:10px;
+    margin-right:20px;
+    
 }
-.title2{
-    margin-bottom:0;
-    font-size:90px;
-    color:rgb(246, 230, 203);
-    font-weight:bold;
+.about-img{
+    height:1500px;
+    width:150px;
+    object-fit: cover;
+    display:block;
+    image-align:left;
+    margin-top:10px;
+    margin-left:20px;
 }
-.title3{
-    font-size:100px;
-    color:rgb(246, 230, 203);
-    font-weight:bold;
-}
+
 </style>

@@ -1,13 +1,12 @@
 <template>
-    <div>
-        <div class="topic">
+    <div class="head">
+        <img class="home-pic" src="../images/mypic2.png">
+        <div class="topic1">
             <p class="title1">W e l c o m e</p>
             <p class="title2">to</p>
             <p class="title3">M y&nbsp;&nbsp; H o m e P a g e</p>
         </div>
-            <div class="My-pic">
-                <img class="ui medium circular image" src="../images/mypic.png">
-            </div>
+            
     </div>
 </template>
 
@@ -17,7 +16,7 @@ export default {
 </script>
 
 <style>
-.topic{
+.topic1{
     display:block;
     text-align:center;
     line-height:0.3;
@@ -39,8 +38,12 @@ export default {
     color:rgb(246, 230, 203);
     font-weight:bold;
 }
-img{
-    width:100px;
-    border-radius: 50%;
+.head img{
+    width:200px;
+    border-radius: 60%;
+    display:block;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:20px
 }
 </style>
