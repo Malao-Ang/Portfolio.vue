@@ -1,12 +1,23 @@
 <template>
-    <head>
-    <div class="header">
+    <html>
+        <head>
             <div class="topic">
                 <p class="title1"> . . . A b o u t&nbsp;&nbsp;M e</p>
-                <img class="about-img" src="../images/aboutpic2.png"/>
             </div>
-    </div>
-    </head>
+        </head>
+            <div class="my-story">
+                <img class="about-img" src="../images/aboutpic2.png"/>
+                <p class="story">Hello everyone! </br></br>
+                    In Thai, my name is Pim. Pim is a verb that literally meaning "to type." </br>
+                    I'm currently enrolled at Burapha University 
+                    Faculty of Informatics</br>(Computer Science) .
+                    I'm interested in web development and game development,
+                    therefore I'm starting with web authoring for now. In the future, 
+                    I hope to create games that will motivate and guide me.
+                </p>
+            </div>
+            
+    </html>
 </template>
 
 <script>
@@ -28,14 +39,30 @@ head {
     margin-right:20px;
     
 }
+.my-story{
+    display:inline-flex;
+    flex-direction: row;
+}
 .about-img{
     height:1500px;
     width:150px;
     object-fit: cover;
     display:block;
-    image-align:left;
+    position:relative;
     margin-top:10px;
-    margin-left:20px;
+    /* display:flex;
+    flex:left; */
 }
+
+.my-story p{
+    display:flex;
+    margin-left:50px;
+    margin-right:300px;
+    color:#E5DCC3;
+    font-size:20px;
+}
+
+
+
 
 </style>

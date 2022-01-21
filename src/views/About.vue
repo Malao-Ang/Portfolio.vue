@@ -4,11 +4,6 @@
     <aboutme/>
     <router-view/>
   </div>
-  <div class="my-story">
-    <div class="story">
-        <p>Hello my name is Pim</p>
-    </div>
-  </div>
   </html>
 </template>
 
@@ -24,5 +19,7 @@ export default {
 </script>
 
 <style>
+
+
 
 </style>
