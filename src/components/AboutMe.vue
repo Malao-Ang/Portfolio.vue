@@ -4,13 +4,15 @@
             <div class="topic">
                 <p class="title1"> . . . A b o u t&nbsp;&nbsp;M e</p>
             </div>
+            <div class="profile">
+                <img src="../images/mypic3.jpg">
+            </div>
         </head>
             <div class="my-story">
-                <img class="about-img" src="../images/aboutpic2.png"/>
                 <p class="story">Hello everyone! </br></br>
-                    In Thai, my name is Pim. Pim is a verb that literally meaning "to type." </br>
+                    In Thai, my name is Pim. Pim is a verb that literally meaning "to type."
                     I'm currently enrolled at Burapha University 
-                    Faculty of Informatics</br>(Computer Science) .
+                    Faculty of Informatics(Computer Science) .
                     I'm interested in web development and game development,
                     therefore I'm starting with web authoring for now. In the future, 
                     I hope to create games that will motivate and guide me.
@@ -31,7 +33,18 @@ export default {
 head {
     display:block;
     text-align:right;
-    /* line-height:0; */
+}
+.profile img{
+    height: 200px;
+    display:flex;
+    margin:auto;
+    margin-top:50px;
+    border: none;
+    border-radius: 50%;
+    transition: transform 250ms;
+}
+.profile img:hover {
+    transform: translateY(-10px);
 }
 .title1{
     color:rgb(246, 230, 203);
@@ -40,29 +53,22 @@ head {
     
 }
 .my-story{
-    display:inline-flex;
-    flex-direction: row;
-}
-.about-img{
-    height:1500px;
-    width:150px;
-    object-fit: cover;
-    display:block;
-    position:relative;
-    margin-top:10px;
-    /* display:flex;
-    flex:left; */
-}
-
-.my-story p{
+    width: 100%;
+    height: 100%;
     display:flex;
-    margin-left:50px;
-    margin-right:300px;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+.my-story  p{
+    width:800px;
+    height:300px;
+    text-align:center;
     color:#E5DCC3;
     font-size:20px;
+    transition: transform 250ms ease-out;
+
 }
-
-
-
 
 </style>

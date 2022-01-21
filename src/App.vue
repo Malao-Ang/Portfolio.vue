@@ -31,6 +31,7 @@
 li {
   display: inline;
   float: right;
+  
 }
 .logo{
   margin-top: 11px;

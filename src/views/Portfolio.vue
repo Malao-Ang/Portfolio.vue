@@ -1,3 +1,21 @@
 <template>
-    <h1>This is Portfolio</h1>
+    <html>
+        <portpage/>
+        <router-view></router-view>
+    </html>
 </template>
+
+<script>
+import portpage from '@/components/PortPage.vue'
+export default {
+    name:'PortPage',
+    components: {
+        portpage
+    }
+
+}
+</script>
+
+<style>
+
+</style>
