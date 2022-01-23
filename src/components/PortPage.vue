@@ -23,13 +23,13 @@
         <div class="card">
             <img class="card-img-top" src="https://camo.githubusercontent.com/d4c77e0ecd1192dfa105d7a167948356bebd41a8e00c906d55a9961bc78a3289/68747470733a2f2f313030306c6f676f732e6e65742f77702d636f6e74656e742f75706c6f6164732f323032312f30352f4769744875622d6c6f676f2e706e67" alt="Card image cap" style="height:450px">
             <div class="card-body">
-                <h5 class="card-title"></br>My Project</h5>
+                <h5 class="card-title">My Project</h5>
                 <p class="card-text">You can recommend me for a project that I'm working on to enhance my coding skills.</p>
                 <button class="button_" ><span><a href="#">Click</a></span></button>
             </div>
         </div>
         </div>
-    </html>
+</html>
 </template>
 
 <script>
@@ -98,4 +98,5 @@ export default {
     opacity: 1;
     right: 0;
 }
+
 </style>

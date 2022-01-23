@@ -18,6 +18,14 @@
                     I hope to create games that will motivate and guide me.
                 </p>
             </div>
+        
+        <div class="youtube">
+            <p class="title1">M y&nbsp;&nbsp;Y o u t u b e &nbsp;&nbsp;C h a n n e l . . .</p>
+            <img src="../images/youtube.png" style="width:1000px">
+            <p class="story2">I made youtube to tell stories about what happened in my life.<br>
+                Subscribe Me !!!
+            </p>
+        </div>
             
     </html>
 </template>
@@ -69,6 +77,16 @@ head {
     font-size:20px;
     transition: transform 250ms ease-out;
 
+}
+.story2{
+    text-align:center;
+    color:#E5DCC3;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.youtube img{
+    display:flex;
+    margin:auto;
 }
 
 </style>
