@@ -1,7 +1,7 @@
 <template>
   <div class="homepage">
     <home/>
-    <router-view></router-view>
+<router-view/>
   </div>
 </template>
 
@@ -10,10 +10,12 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 import home from '../components/home.vue'
 
+
 export default {
   name: 'Home',
   components: {
     home
-  }
+  },
+
 }
 </script>

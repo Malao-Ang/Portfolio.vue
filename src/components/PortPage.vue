@@ -71,7 +71,6 @@ export default {
     background-color: rgb(229, 220, 195);
     border: none;
     border-radius: 15px;
-    box-shadow: 5px 3px 5px 0  rgb(109, 109, 109);
 }
 .button_ span a{
     text-decoration:none;
