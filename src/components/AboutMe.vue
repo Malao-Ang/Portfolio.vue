@@ -45,12 +45,30 @@
         <div class="animal">
             <p class="title1">A n i m a l &nbsp;&nbsp;T h a t &nbsp;&nbsp;I &nbsp;&nbsp;&#128152;</p>
             <div class="grid">
-                <img class="grid-item" src="../images/cat.jpg" alt="cat">
-                <img class="grid-item" src="../images/capibara.jpg" alt="cat">
-                <img class="grid-item" src="../images/otter.jpg" alt="cat">
-                <img class="grid-item" src="../images/panda.jpg" alt="cat">
-                <img class="grid-item" src="../images/rabbit.jpg" alt="cat">
-                <img class="grid-item" src="../images/fox.jpg" alt="cat">
+                <div class="all">
+                    <img class="grid-item" src="../images/cat.jpg" alt="cat">
+                    <div class="overlay">&#127775; E Tip Non's Cat &#127775;</div>
+                </div>
+                <div class="all">
+                    <img class="grid-item" src="../images/capibara.jpg" alt="cat">
+                    <div class="overlay">&#127807; Capibara &#127807;</div>
+                </div>
+                <div class="all">
+                    <img class="grid-item" src="../images/otter.jpg" alt="cat">
+                    <div class="overlay">&#128167; Otter &#128167;</div>
+                </div>
+                <div class="all">
+                    <img class="grid-item" src="../images/panda.jpg" alt="cat">
+                    <div class="overlay">&#127808; Red panda &#127808;</div>
+                </div>
+                <div class="all">
+                    <img class="grid-item" src="../images/rabbit.jpg" alt="cat">
+                    <div class="overlay">&#127799; Rabbit &#127799;</div>
+                </div>
+                <div class="all">
+                    <img class="grid-item" src="../images/fox.jpg" alt="cat">
+                    <div class="overlay">&#127884; Japan fox &#127884;</div>
+                </div>
             </div>
         </div>
         <div class="color">
@@ -153,6 +171,27 @@ head {
     margin:auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     
+}
+.all{
+    position: relative;
+    width:50%;
+    max-width: 300px;
+}
+.overlay{
+    position:absolute;
+    bottom:0;
+    background: rgb(52, 52, 52);
+    background: rgba(0,0,0,0.5); /*see thoug */
+    color: rgb(243, 243, 243);
+    width:100%;
+    transition:0.5s ease;
+    opacity:0;
+    font-size:20px;
+    padding:50px;
+    text-align: center;
+}
+.all:hover .overlay {
+    opacity: 1;
 }
 
 </style>
