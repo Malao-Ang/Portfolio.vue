@@ -1,5 +1,8 @@
+
 <template>
     <html>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <head>
             <div class="topic">
                 <p class="title1"> . . . A b o u t&nbsp;&nbsp;M e</p>
@@ -22,18 +25,43 @@
         <div class="youtube">
             <p class="title1">M y&nbsp;&nbsp;Y o u t u b e &nbsp;&nbsp;C h a n n e l . . .</p>
             <img src="../images/youtube.png" style="width:1000px">
-            <p class="story2">I made youtube to tell stories about what happened in my life.<br>
+            <p class="story2">&#10024; I made youtube to tell stories about what happened in my life. &#10024;<br>
                 Subscribe Me !!!
             </p>
+            <img src="https://www.nicepng.com/png/full/4-43181_the-subscribe-button-sign.png" style="width:200px">
         </div>
-            
+        <div class="vedio">
+            <iframe class="grid-item" width="560" height="315" src="https://www.youtube.com/embed/OzmQxMIhC3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="grid-item" width="560" height="315" src="https://www.youtube.com/embed/M_WvwYrrFWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="grid-item" width="560" height="315" src="https://www.youtube.com/embed/jLNtW2w_YF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="grid-item" width="560" height="315" src="https://www.youtube.com/embed/RrgKCsgKxx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="grid-item" width="560" height="315" src="https://www.youtube.com/embed/ZuBSwJwAD8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="grid-item" width="560" height="315" src="https://www.youtube.com/embed/5EPywT3BBPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="animal">
+            <p class="title1">A n i m a l &nbsp;&nbsp;T h a t &nbsp;&nbsp;I &nbsp;&nbsp;&#128152;</p>
+            <div class="grid">
+                <img class="grid-item" src="../images/cat.jpg" alt="cat">
+                <img class="grid-item" src="../images/capibara.jpg" alt="cat">
+                <img class="grid-item" src="../images/otter.jpg" alt="cat">
+                <img class="grid-item" src="../images/panda.jpg" alt="cat">
+                <img class="grid-item" src="../images/rabbit.jpg" alt="cat">
+                <img class="grid-item" src="../images/fox.jpg" alt="cat">
+            </div>
+        </div>
+        <div class="color">
+            <p class="title1">M y &nbsp;&nbsp;f a v o r i t e &nbsp;&nbsp;A n i m e </p>
+        </div>
     </html>
 </template>
 
 <script>
+
 export default {
 
+
 }
+
 </script>
 
 <style>
@@ -58,6 +86,7 @@ head {
     color:rgb(246, 230, 203);
     margin-top:10px;
     margin-right:20px;
+    margin-left:20px;
     
 }
 .my-story{
@@ -70,23 +99,47 @@ head {
     
 }
 .my-story  p{
-    width:800px;
-    height:300px;
+    width:90%;
+    height:20%;
     text-align:center;
     color:#E5DCC3;
-    font-size:20px;
+    font-size:50px;
     transition: transform 250ms ease-out;
 
 }
 .story2{
     text-align:center;
-    color:#E5DCC3;
+    color:#343434;
     font-size:20px;
     margin-bottom:20px;
 }
 .youtube img{
     display:flex;
     margin:auto;
+}
+.vedio {
+    display: grid;
+    grid-gap: 50px 20px ;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+}
+.grid-item{
+    border: none;
+    padding:20px;
+}
+.grid{
+    display: grid;
+    grid-gap: 50px 20px ;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+}
+.animal img{
+    width :500px;
+    height :500px;
+    object-fit:cover;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
 }
 
 </style>
