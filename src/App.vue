@@ -14,9 +14,9 @@
                 </button>
                 <div class="dw-content">
                   <a href="/port">Portfolio Menu </a>
-                  <a href="/port" id="cernificate">Certificates</a>
-                  <a href="/port" id="Photos">Photos</a>
-                  <a href="/port" id="Project">Project</a>
+                  <a href="/port#cernificate">Certificates</a>
+                  <a href="/port#Photos" >Photos</a>
+                  <a href="/port" >Project</a>
               </div>
             </div>
           </li>

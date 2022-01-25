@@ -6,11 +6,13 @@
         <div class="grid-item">
             <div class="container">
                 <img src="../images/cer.png" style="width:300px">
-                <button class="btn"><a href="#">
+
+                <button class="btn"><a href="#cernificate">
                 <div class="overlay">
                     <div class="text">Go to Cernificate page</div>
                 </div>
                 </a></button>
+
                 <p class="title">My Cernificate</p>
             </div>
         </div>
@@ -19,7 +21,7 @@
             <div class="grid-item">
                 <div class="container">
                     <img src="../images/pic.png" style="width:300px">
-                    <button class="btn"><a href="#">
+                    <button class="btn"><a href="#Photos">
                         <div class="overlay">
                         <div class="text">Go to Photos page</div>
                     </div>
@@ -31,7 +33,7 @@
             <div class="grid-item">
                 <div class="container">
                     <img src="../images/code.png" style="width:300px">
-                    <button class="btn"><a href="#">
+                    <button class="btn"><a href="#code">
                     <div class="overlay">
                             <div class="text">Go to Project page</div>
                     </div>
@@ -39,9 +41,135 @@
                     <p class="title">My Project</p>
                 </div>
             </div>
-            <div class="cerni-page" id="cernificate">
-</div>
-    </div>
+        </div>
+
+        <div class="main" id="cernificate">
+                <p class="title1">C e r n i f i c a t e . . .</p>
+
+                <div class="grid">
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/cer.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/cer.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/cer.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/cer.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/cer.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/cer.png">
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="main" id="Photos">
+                <p class="title1">P H O T O S . . .</p>
+
+                <div class="grid">
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/pic.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/pic.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/pic.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/pic.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/pic.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/pic.png">
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="main" id="code">
+                <p class="title1">M y&nbsp;&nbsp;P r o  j e c t . . .</p>
+
+                <div class="grid">
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/code.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/code.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/code.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/code.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/code.png">
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <div class="container">
+                            <img src="../images/code.png">
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        
 </html>
 </template>
 
@@ -53,12 +181,15 @@ export default {
 </script>
 
 <style>
+html{
+    scroll-behavior: smooth;
+}
 .grid {
     display:grid;
     grid-column-gap:20px; 
     grid-template-columns: auto auto auto;
     padding: 30px;
-    /* background-color:white; */
+    background-color:white;
 }
 .grid-item {
     border:none;
