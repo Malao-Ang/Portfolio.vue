@@ -13,10 +13,10 @@
                 <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dw-content">
-                  <a href="/port">menu Portfolio</a>
-                  <a href="#">certificates</a>
-                  <a href="#">Images</a>
-                  <a href="#">project</a>
+                  <a href="/port">Portfolio Menu </a>
+                  <a href="/port" id="cernificate">Certificates</a>
+                  <a href="/port" id="Photos">Photos</a>
+                  <a href="/port" id="Project">Project</a>
               </div>
             </div>
           </li>
